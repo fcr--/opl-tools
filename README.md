@@ -6,6 +6,8 @@ sudo luarocks install --global lua-lz4 luafilesystem
 sudo apt install imagemagick
 ```
 
+Also install `lualib` from [here](https://github.com/fcr--/lualib).
+
 # RUNNING
 
 ## add-missing-images.lua
