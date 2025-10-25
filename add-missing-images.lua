@@ -71,8 +71,8 @@ local function get_covers_dir(path)
       print('Missing or invalid -covers parameter')
       os.exit()
    end
-   if lfs.attributes(path..'/ps2-covers') then
-      path = path..'/ps2-covers/covers/default'
+   if lfs.attributes(path..'/covers/default') then
+      path = path..'/covers/default'
    end
    assert(lfs.attributes(path).mode == 'directory')
    return path
