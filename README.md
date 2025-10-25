@@ -3,6 +3,7 @@
 Easiest altertnative if you don't want to use a lua virtual environment or custom luarocks tree:
 ```
 sudo luarocks install --global lua-lz4 luafilesystem
+sudo apt install imagemagick
 ```
 
 # RUNNING
